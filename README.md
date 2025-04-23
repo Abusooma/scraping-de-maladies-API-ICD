@@ -42,11 +42,11 @@ Dans le répertoire principal du projet, exécutez le script Python pour récup�
 python api.py
 ```
 
-Le script va interroger l'API de l'OMS, récupérer les données et les sauvegarder dans un fichier JSON nommé `icd_data.json`.
+Le script va interroger l'API de l'OMS, récupérer les données et les sauvegarder dans un fichier JSON nommé `icd11_data.json`.
 
 ### 3. Structure du fichier JSON
 
-Le fichier généré `icd_data.json` contiendra une liste d'objets JSON avec les informations suivantes pour chaque maladie :
+Le fichier généré `icd11_data.json` contiendra une liste d'objets JSON avec les informations suivantes pour chaque maladie :
 
 - **code** : Le code de la maladie selon la classification ICD.
 - **nom** : Le nom de la maladie.
