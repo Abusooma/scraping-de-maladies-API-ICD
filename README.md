@@ -20,7 +20,7 @@ Avant de commencer, assurez-vous d'avoir installé les outils et dépendances su
 Installez les bibliothèques nécessaires en utilisant `pip` :
 
 ```bash
-pip install requests
+pip install -r requirements.txt
 ```
 
 ## Utilisation
@@ -30,8 +30,8 @@ pip install requests
 Clonez le projet sur votre machine locale :
 
 ```bash
-git clone https://github.com/votre_utilisateur/icd-scraping.git
-cd icd-scraping
+git clone https://github.com/Abusooma/scraping-de-maladies-API-ICD.git
+cd ai_voice
 ```
 
 ### 2. Exécutez le script
@@ -39,7 +39,7 @@ cd icd-scraping
 Dans le répertoire principal du projet, exécutez le script Python pour récupérer les données des maladies :
 
 ```bash
-python scraper.py
+python api.py
 ```
 
 Le script va interroger l'API de l'OMS, récupérer les données et les sauvegarder dans un fichier JSON nommé `icd_data.json`.
