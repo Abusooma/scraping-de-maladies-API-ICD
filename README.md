@@ -60,7 +60,7 @@ Voici un extrait d'exemple du fichier JSON généré :
 
 ```json
  {
-                    "nom": "Chondrosarcome, localisation primitive",
+    "nom": "Chondrosarcome, localisation primitive",
                     "id": "1625755389",
                     "description": "Définition non trouvée",
                     "subcategories": [
@@ -129,7 +129,7 @@ Voici un extrait d'exemple du fichier JSON généré :
                             "description": "Définition non trouvée"
                           }
                         ]
-                      }
-                    ]
+  }
+]
 }
 ```
